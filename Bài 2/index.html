@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển từ mét sang feet</title>
+</head>
+<body>
+<h1>Chuyển đổi mét sang feet</h1>
+<p>Mét đã nhập:</p>
+<p id="xyz"></p>
+
+<p>Ft hiển thị:</p>
+<p id="ketqua"></p>
+
+
+
+
+
+<script>
+    // ft =m * 3.2808
+    let Metnhap = +prompt(`Hãy nhập số mét`)
+    let ftketqua = Metnhap * 3.2808
+    document.getElementById('ketqua').innerHTML = `${ftketqua}ft`
+    document.getElementById('xyz').innerHTML = `${Metnhap}m`
+
+</script>
+
+
+
+</body>
+</html>
